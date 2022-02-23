@@ -464,7 +464,8 @@ PlayerSettings:
   XboxOneAllowedProductIds: []
   XboxOnePersistentLocalStorageSize: 0
   vrEditorSettings: {}
-  cloudServicesEnabled: {}
+  cloudServicesEnabled:
+    UNet: 1
   cloudProjectId: 754e86e7-43cc-41de-8a4d-5e1bb79b2f2c
   projectName: Alonderis_UnityUI (1)
   organizationId: alonderisroberts
