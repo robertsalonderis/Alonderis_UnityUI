@@ -3,7 +3,6 @@ using UnityEngine.UI;
 using UnityEngine;
 
 public class VardaParadisana : MonoBehaviour {
-
 	// Use this for initialization
 	void Update () {
 		
@@ -16,7 +15,7 @@ public class VardaParadisana : MonoBehaviour {
 	public GameObject tekstaAttelosana;
 
 	public void uzglabaTekstu(){
-		teksts = ievadesLauks.GetComponent<Text> ().text;
+		teksts = ievadesLauks.GetComponent<Text>().text;
 		tekstaAttelosana.GetComponent<Text>().text = "Sveiks "+teksts.ToUpper()+"!";
 	}
 }
